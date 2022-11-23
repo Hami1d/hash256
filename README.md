@@ -5,7 +5,7 @@ sha3_384, sha1, sha384, shake_256, sha224, sha256, shake_128, sha3_512, sha512_2
 
 choose one and replace after hash. ###sha256 with one above like:
 
-word = hash.sha256(input('write your phrase here:').encode('utf-8')).hexdigest()
+hashcode = hash.sha256(input('write your phrase here:').encode('utf-8')).hexdigest()
 
 replaced with sha384
-word = hash.sha384(input('write your phrase here:').encode('utf-8')).hexdigest()
+hashcode = hash.sha384(input('write your phrase here:').encode('utf-8')).hexdigest()
